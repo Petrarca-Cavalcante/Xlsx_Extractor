@@ -19,3 +19,5 @@ Após extrair o .zip do projeto e acessar a pasta Xlsx_Extractor é necessário:
   
 ---
 #### A API deve estar ativa antes de rodar esta aplicação. Quando a aplicação está funcionando normalmente, cada registro de funcionário coletado da planilha e enviado para a API será exibido no terminal junto com o código de status retornado.
+
+#### Caso esteja usando Linux, é possível rodar a aplicação sem os passos acima. Basta rodar o arquivo chamado "starter.sh" e ele irá fazer os procedimentos acima automaticamente
