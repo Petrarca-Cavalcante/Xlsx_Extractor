@@ -5,7 +5,10 @@ headers = {
         'Content-Type': 'application/json',
     }
 
+# Envia os dados extraídos da planilha para a API
 def Sender(vida): 
-    print(vida, 10*"-")
     response = requests.post(url, json=vida, headers=headers)
-    print(response.content)
+    vida_registrada = response.json()
+    print(f"STATUS - {response.status_code}")
+    print(vida_registrada)
+    print(50*"__")
